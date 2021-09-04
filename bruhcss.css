@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    margin: 0px;
+    
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', serif;
+}
+.background{
+    width: 100%;
+    margin: 0px;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+}
+
+.the-image{
+    background-color: hsl(225, 100%, 98%);
+    height: 650px;
+    width: 450px;
+    margin: 150px auto 0 auto;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 20px 24px 20px rgba(128, 128, 128, 0.493);
+    
+
+    
+}
+
+.girl{
+    border-radius: 20px 20px 0px 0px;
+}
+h2{
+    font-family: 'Red Hat Display', serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%) ;
+    
+    text-align: center;
+}
+.description{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 19px;
+}
+.price{
+    width: 350px;
+    height: 80px;
+    background-color:hsla(225, 100%, 94%, 0.315) ;
+    margin: 0 50px 0 50px;
+    position: absolute;
+    border-radius: 10px;
+    padding: 8px 0 8px 0;
+    
+    
+}
+.music{
+    
+    padding: 15px 0 0 20px;
+    float: left;
+}
+.annual{
+ font-size: 14px;
+ margin-bottom: 6px;
+ padding-top: 4px;
+ margin-left: 85px;
+ color: hsl(223, 47%, 23%);
+ font-weight: 900;
+}
+.per-year{
+    
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 85px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+    
+.change{
+    position: absolute;
+    left:20px;
+    top: 40px;
+    bottom: 40px;
+    float: right;
+    font-size: 14px;
+    margin-left: 255px;
+    color: hsl(245, 75%, 52%);
+}
+
+
+
+.cancel{
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    margin-top: -5px;
+    left: 41%;
+}
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 5px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    width: 350px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 0 20px 0;
+    background-color: hsl(245, 75%, 52%);
+    -webkit-box-shadow: 23px 15px 34px 0 rgba(189, 189, 189, 0.37);
+    -moz-box-shadow: 23px 15px 34px 0 rgba(189, 189, 189, 0.37);
+    box-shadow: 23px 15px 34px 0 rgba(189, 189, 189, 0.37);
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 115px 50px 0 50px;
+ }
+ 
+ .btn:hover {
+    background: hsla(246, 77%, 68%, 0.938);
+    border: solid hsla(246, 77%, 68%, 0.938) 1px;
+
+    text-decoration: none;
+ }
+ .change:hover{
+     color:hsla(246, 77%, 68%, 0.938);
+    text-decoration: none; 
+     
+ }
+ .cancel:hover{
+     color: hsl(223, 47%, 23%);
+    cursor: pointer;
+ }
+
